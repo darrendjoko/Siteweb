@@ -1,0 +1,52 @@
+/* Variables globales */
+:root {
+    --primary:#ff8c42;
+    --dark:#0a0a0a;
+    --light:#f8f9fa;
+}
+
+/* Resets de base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style general */
+body{
+    font-family: Arial, sans-serif;
+    background: var(--dark);
+    color: var(--light);
+}
+
+/* En tete */
+header{
+    text-align: left;
+    padding: 40px;
+    background: #111;
+}
+header h1{
+    color: var(--primary);
+}   
+
+/*  Sections  */
+section{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/*  Listes */
+li{
+    background: #1a1a1a;
+    margin: 5px 0;
+    padding: 10px;
+
+}
+
+/*  Pieds de Page */
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
